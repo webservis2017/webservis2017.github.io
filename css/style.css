@@ -1,0 +1,290 @@
+@font-face {
+  font-family: 'MyriadProRegular';
+  src: url('../fonts/MyriadProRegular.eot');
+  src: url('../fonts/MyriadProRegular.eot') format('embedded-opentype'), url('../fonts/MyriadProRegular.woff2') format('woff2'), url('../fonts/MyriadProRegular.woff') format('woff'), url('../fonts/MyriadProRegular.ttf') format('truetype'), url('../fonts/MyriadProRegular.svg#MyriadProRegular') format('svg');
+}
+@font-face {
+  font-family: 'DINNextCYRLight';
+  src: url('../fonts/DINNextCYRLight.eot');
+  src: url('../fonts/DINNextCYRLight.eot') format('embedded-opentype'), url('../fonts/DINNextCYRLight.woff2') format('woff2'), url('../fonts/DINNextCYRLight.woff') format('woff'), url('../fonts/DINNextCYRLight.ttf') format('truetype'), url('../fonts/DINNextCYRLight.svg#DINNextCYRLight') format('svg');
+}
+input {
+  outline: none;
+}
+.reg {
+  font-family: "MyriadProRegular";
+}
+.dnc {
+  font-family: "DINNextCYRLight";
+}
+a:focus {
+  text-decoration: none;
+  color: #fff;
+}
+.container {
+  padding-left: 50px;
+}
+.header {
+  font-family: "MyriadProRegular";
+  padding-top: 47px;
+  height: 602px;
+  background: url(../img/bg-header.jpg) no-repeat 0 0;
+}
+.header .logo {
+  float: left;
+  display: inline-block;
+}
+ul.list-unstyled a {
+  margin-right: 50px;
+  color: #fff;
+  font-size: 20px;
+  display: inline-block;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+ul.list-unstyled a:hover {
+  text-decoration: none;
+  color: #d0d0d0;
+}
+h1 {
+  letter-spacing: 3px;
+  line-height: 1.5;
+  margin-top: 150px;
+  font-size: 45px;
+  color: #fff;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  h1 {
+    font-size: 40px;
+    margin-top: 90px;
+  }
+}
+@media (min-width: 332px) and (max-width: 767px) {
+  h1 {
+    margin-top: 100px;
+    font-size: 30px;
+  }
+}
+/************************ licension ************************/
+.licens {
+  background-color: #f0f1f3;
+  padding-bottom: 60px;
+}
+.licens .container {
+  padding-right: 100px;
+}
+.licens .container,
+.services .container {
+  padding-top: 80px;
+}
+.services .container {
+  padding-bottom: 110px;
+}
+.licens p {
+  display: inline-block;
+  color: #252525;
+  font-size: 20px;
+  float: left;
+}
+.button {
+  font-family: "MyriadProRegular";
+  margin-top: 50px;
+  width: 250px;
+  height: 50px;
+  background-color: #003399;
+  border-radius: 25px;
+  color: #fff;
+  font-size: 16px;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+.button:hover {
+  color: #fff;
+  background-color: #0c275b;
+}
+.button:focus {
+  color: #fff;
+  outline: none;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .licens p {
+    font-size: 16px;
+  }
+  .licens button {
+    margin-top: -5px;
+  }
+}
+@media (min-width: 332px) and (max-width: 767px) {
+  .licens p {
+    font-size: 15px;
+  }
+  .licens button {
+    margin-top: -5px;
+  }
+}
+/************************** services ************************/
+.header-lic {
+  font-family: "DINNextCYRLight";
+  margin-top: 0px;
+  font-size: 35px;
+  color: #252525;
+}
+.services .row {
+  margin-top: 70px;
+  color: #252525;
+}
+.services .header-row {
+  margin-top: 0;
+}
+.circle {
+  opacity: 0;
+  position: absolute;
+  top: -19px;
+  left: -4px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.val {
+  display: inline-block;
+  position: absolute;
+  left: -30px;
+}
+.ellipse {
+  position: relative;
+}
+.ellipse:hover .circle {
+  opacity: 1;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .services {
+    font-size: 12px;
+  }
+  .services .ellipse {
+    margin-bottom: 30px;
+  }
+  .services p {
+    margin-left: 35px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .services {
+    font-size: 12px;
+  }
+  .services p {
+    margin-left: 35px;
+  }
+}
+/************************ objects ************************/
+/* .item a {
+	margin-right: 40px;
+}
+.item img {
+	margin-right: 20px;
+	margin-left: 12px;
+}
+.slider-row {
+	margin-top: 20px;
+}
+.box-slider {
+	margin-right: 40px;
+	width: 370px;
+	height: 355px;
+} */
+/****************** requisites *****************/
+.requisites {
+  background-color: #252525;
+  color: #fff;
+  font-family: "DINNextCYRLight";
+}
+.requisites .req-header {
+  margin-left: 12px;
+}
+.requisites .contact-header {
+  margin-left: 24px;
+}
+.requisites .container {
+  padding-bottom: 100px;
+}
+.requisites ul li {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+.requisites ul li a {
+  color: #fff;
+  text-decoration: underline;
+}
+.requisites input {
+  font-size: 15px;
+  color: #000;
+  margin-bottom: 15px;
+  background-color: #252525;
+  border: 1px solid #515151;
+  border-radius: 4px;
+  height: 40px;
+  width: 253px;
+  padding-left: 15px;
+}
+.requisites form {
+  margin-left: 23px;
+  margin-top: 41px;
+}
+.requisites form button {
+  line-height: 52px;
+  font-size: 15px;
+  width: 200px;
+  height: 50px;
+  color: #252525;
+  background-color: #f0bc47;
+  border: none;
+  border-radius: 24px;
+  margin-top: 15px;
+}
+.requisites .content {
+  margin-top: 40px;
+}
+.requisites .block-2 .director {
+  margin-top: 30px;
+}
+.requisites .block-2 p {
+  margin-bottom: 0;
+}
+.requisites .block-2 .strong-2 {
+  margin-top: 30px;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .container {
+    font-size: 12px;
+  }
+  .container .block-2 {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    font-size: 12px;
+  }
+}
+/******************* footer ******************/
+.footer {
+  font-family: "DINNextCYRLight";
+  background-color: #1a1a1a;
+}
+.footer p {
+  height: 22px;
+  display: inline-block;
+  line-height: 22px;
+}
+.footer .container {
+  padding-top: 25px;
+  padding-bottom: 17px;
+  color: #fff;
+}
+.footer .container img {
+  margin-left: 10px;
+  margin-top: -2px;
+}
+@media (min-width: 0px) and (max-width: 767px) {
+  .container {
+    margin: 0 auto;
+  }
+}
